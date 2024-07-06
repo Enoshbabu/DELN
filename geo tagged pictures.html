@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>GEO TAGGED PICTURES</title>
+	<meta charset="utf-8">
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<style>
+	/* Positioning the buttons */
+	.button-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	.button-container button {
+		width: 150px;
+		/* Adjust width as needed */
+	}
+
+	/* Responsive iframe */
+	#resultExcel {
+		width: 100%;
+		height: 600px;
+		/* Adjust height as needed */
+	}
+</style>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header"><a class="logo" href="index.html">Home</a>
+		<nav><a href="#menu">MENU</a>
+		</nav>
+	</header><!-- Nav -->
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="abstract.html">Abstract</a></li>
+			<li><a href="introduction.html">Introduction</a></li>
+			<li><a href="questionnaire.html">Questionnaire</a></li>
+			<li><a href="overview.html">Overview</a></li>
+			<li><a href="project.html">Project</a></li>
+			<li><a href="geo tagged pictures.html">Geo tagged pictures</a></li>
+			<li><a href="conclusion.html">Conclusion</a></li>
+		</ul>
+	</nav><!-- Heading -->
+	<div id="heading">
+		<h1>GEO TAGGED PICTURES</h1>
+	</div>
+
+	<section id="main" class="wrapper">
+		<div class="row">
+		<style>
+		div{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		}
+		div img{
+		width: 400px;
+		height: 300px;
+		border: 2px solid black;
+		border-radius: 13px;
+		box-shadow: 4px 7px 7px 0px ;
+		cursor: pointer;
+		margin: 10px;
+		transition: 400ms;
+		}
+		div img:hover {
+		filter:grayscale(1);
+		transform: scale(1.03);
+		}
+		</style>
+					<div class="image-container">
+						<img src="images/GTP5.jpg" alt="Image 1">
+						<img src="images/GTP3.jpg" alt="Image 2">
+						<img src="images/GTP2.jpg" alt="Image 3">
+						<img src="images/GTP1.jpg" alt="Image 4">
+						<img src="images/GTP4.jpg" alt="Image 5">
+						<div class="image-info">
+						<br><br>
+			<button onclick="window.history.back();">BACK</button>
+					
+				
+				</div>
+			</form>
+		</div>
+		<!-- Placeholder for the result Excel -->
+		<iframe id="resultExcel" src="" frameborder="0"></iframe>
+	</section>
+
+	
+	</script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
